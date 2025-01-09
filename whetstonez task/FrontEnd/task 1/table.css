@@ -1,0 +1,30 @@
+#t1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+th{
+color: blue;
+font-size: 25px;
+}
+tr{
+    border: 1px solid red;
+}
+.tr2{
+    border: 1px solid black;
+}
+#t3 > table tr:nth-child(even){
+background-color: aquamarine;
+}
+#t3 > table td:nth-child(even){
+    background-color:lightgrey;
+    }
+#t4 > table tr:nth-child(even){
+    background-color: gray;
+}
+#t4 > table tr:nth-child(odd){
+    background-color: lightblue
+}
+#t5 > th,td,th{
+    border: 2px solid black;
+}

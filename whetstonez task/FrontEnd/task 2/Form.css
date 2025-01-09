@@ -1,0 +1,57 @@
+#f1{
+    display: flex;
+}
+.form1{
+    margin: 0 auto;
+    background-color:lightblue;
+    width: 600px;
+    padding: 40px 25px;
+    border-radius: 20px;
+    box-shadow: 6px 2px 10px blue;                              /*left,bottom,blur*/
+}
+.form1 label {
+    font-weight: bold;
+    font-size: 24px;
+    float: left; 
+    width: 190px; 
+    margin-top: 15px;
+}
+.form1 input,textarea{
+    padding: 5px;
+    width: 320px;
+}
+.form1 div{
+    clear: both;
+}
+.form1 input,textarea,select{
+    float: right;
+    margin-top: 15px;
+}
+.form1 button{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 11px 18px;
+}
+@media screen and (max-width: 800px) {
+    .form1 div{
+        display: flex;
+        flex-direction: column;
+        background-color: pink;
+        padding: 0px 35px;
+    }
+    .form1 input,select,textarea{
+        width: 100% !important;
+    }
+    .form1 .bdiv{
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    .form1 button{
+        width: 100px;
+        margin: auto;
+        
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">Contact Us</h1>
+    <div id="f1">
+        <form class="formcontain form1">
+            <div>
+                <label for="fname">First Name:</label>
+                <input id="fname" type="text">
+            </div>
+            <div>
+                <label for="lname">Last Name:</label>
+                <input id="lname" type="text">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" type="text">
+            </div>
+            <div>
+                <label for="loc">Location:</label>
+              <select id="loc" class="select" style="width: 333px; height: 30px;">
+                <option >Lahore</option>
+                <option>Karachi</option>
+                <option>Faislabad</option>
+                <option>Multan</option>
+                <option selected>Bahawalpur</option>
+                <option>Islamabad</option>
+              </select>
+            </div>
+            <!-- <div>
+                <label>Gender:</label>
+                <label for="male" >Male</label>
+                <input id="male" name="gen" type="radio">
+                <label for="female">Female</label>
+                <input id="female" type="radio" name="gen">
+                <label for="other" >Other</label>
+                <input id="other" type="radio" name="gen">
+            </div> -->
+            <div>
+                <label for="textarea">Enter messege:</label>
+                <textarea id="textarea" style="resize: vertical;" placeholder="your messege here"></textarea>
+            </div>
+            <div class="bdiv">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
